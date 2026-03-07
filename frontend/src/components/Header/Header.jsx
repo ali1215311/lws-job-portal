@@ -3,7 +3,7 @@ const Header = () => {
   return (
     <>
       <header className="bg-background/95 supports-backdrop-filter:bg-background/60 border-border sticky top-0 z-50 w-full border-b backdrop-blur">
-        <div className="container mx-auto flex h-16 items-center justify-between px-4">
+        <div className="container flex h-16 items-center justify-between">
           <div className="flex items-center gap-8">
             <a href="index.html" className="flex items-center space-x-2">
               <Briefcase className="text-primary h-8 w-8" />
