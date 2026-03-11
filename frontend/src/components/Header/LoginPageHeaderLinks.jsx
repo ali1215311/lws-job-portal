@@ -1,4 +1,4 @@
-const LoginPageHeaderLinks = () => {
+const LoginPageHeader = () => {
   return (
     <>
       <span className="text-muted-foreground text-sm">
@@ -10,4 +10,4 @@ const LoginPageHeaderLinks = () => {
     </>
   );
 };
-export default LoginPageHeaderLinks;
+export default LoginPageHeader;

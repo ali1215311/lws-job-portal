@@ -1,13 +1,8 @@
-const RegistrationPageHeaderLinks = () => {
+const RegistrationPageHeader = () => {
   return (
     <>
-      <span className="text-muted-foreground text-sm">
-        Already have an account?
-      </span>
-      <a href="login.html" className="btn btn-ghost text-sm">
-        Sign In
-      </a>
+      <div>RegistrationPageHeader</div>
     </>
   );
 };
-export default RegistrationPageHeaderLinks;
+export default RegistrationPageHeader;

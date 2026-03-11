@@ -1,6 +1,4 @@
 import { Briefcase } from "lucide-react";
-import NavLinks from "./NavLinks";
-import RecruiterHeaderLinks from "./RecruiterHeaderLinks";
 const Header = () => {
   return (
     <>
@@ -10,11 +8,15 @@ const Header = () => {
             <a href="index.html" className="flex items-center space-x-2">
               <Briefcase className="text-primary h-8 w-8" />
               <span className="text-xl font-bold">LWS Job Portal</span>
-              <NavLinks />
             </a>
           </div>
           <div className="flex items-center gap-4">
-            <RecruiterHeaderLinks />
+            <a href="login.html" className="btn btn-ghost text-sm">
+              Sign In
+            </a>
+            <a href="register-company.html" className="btn btn-primary text-sm">
+              Post a Job
+            </a>
           </div>
         </div>
       </header>
